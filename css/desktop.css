@@ -1,0 +1,109 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .left i img{
+    display: none;
+}
+header .left{
+    margin-left: 70px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: var(--medium);
+    align-items: center;
+}
+header button{
+    margin-right: 70px;
+}
+
+/* HERO SECTION */
+
+.hero-section{
+    flex-direction: row;
+}
+.hero-section .h1-container {
+    width: 400px;
+}
+.hero-section .h1-container h1{
+    font-size: var(--x-large);
+}
+.hero-section .h1-container p{
+    font-size: var(--medium);
+}
+
+.hero-section picture img{
+    width: 500px;
+}
+
+/* SECTION 2 */
+
+.section-2{
+    flex-direction: row;
+}
+.section-2 .h2-container{
+    width: 400px;
+}
+.section-2 .h2-container h2{
+    font-size: var(--x-large);
+}
+.hero-section .h2-container p{
+    font-size: var(--medium);
+}
+
+/* SECTION 3 */
+
+.section-3{
+    flex-direction: row;
+}
+
+.section-3 .s3-h2-section{
+    width: 400px;
+}
+.section-3 .s3-h2-section h2{
+    font-size: var(--x-large);
+}
+.section-3 .s3-h2-section p{
+    font-size: var(--medium);
+}
+.section-3 picture img{
+    width: 500px;
+}
+
+/* SECTION 4 */
+
+.section-4{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.section-4 .s4-h2-container{
+    width: 400px;
+}
+.section-4 .s4-h2-container h2{
+    font-size: var(--x-large);
+}
+.section-4 .s4-h2-container p{
+    font-size: var(--medium);
+}
+
+/* SECTION 5 */
+
+.section-5{
+    flex-direction: row;
+}
+.section-5 .s5-h2-container{
+    width: 500px;
+}
+.section-5 .s5-h2-container h2{
+    width: 100%;
+    font-size: var(--x-large);
+}
+.section-5 .s5-h2-container p{
+    font-size: var(--medium);
+}
+.section-5 picture img {
+    width: 600px;
+}
