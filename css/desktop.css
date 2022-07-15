@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
 }
 header .left i img{
     display: none;
@@ -24,9 +25,13 @@ header button{
 
 .hero-section{
     flex-direction: row;
+    background-image: url('../img/Cuadrado1.png');
+    background-repeat: no-repeat;
+    background-position: 120% -190%;
 }
 .hero-section .h1-container {
-    width: 400px;
+    width: 500px;
+    margin-left: 200px;
 }
 .hero-section .h1-container h1{
     font-size: var(--x-large);
@@ -36,13 +41,19 @@ header button{
 }
 
 .hero-section picture img{
-    width: 500px;
+    width: 650px;
+    margin-right: 200px;
 }
 
 /* SECTION 2 */
 
 .section-2{
     flex-direction: row;
+    height: 150vh;
+    background-image: url('../img/Ellipse1.png');
+    background-repeat: no-repeat;
+    background-position: -20%;
+    background-size: 900px;
 }
 .section-2 .h2-container{
     width: 400px;
@@ -58,6 +69,9 @@ header button{
 
 .section-3{
     flex-direction: row;
+    background-image: url('../img/Vector2.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
 }
 
 .section-3 .s3-h2-section{
@@ -78,6 +92,10 @@ header button{
 .section-4{
     flex-direction: row;
     justify-content: space-evenly;
+    background-image: url('../img/Ellipse1.png');
+    background-repeat: no-repeat;
+    background-position: 5% 80%;
+    background-size: 700px;
 }
 .section-4 .s4-h2-container{
     width: 400px;
@@ -93,6 +111,9 @@ header button{
 
 .section-5{
     flex-direction: row;
+    background-image: url('../img/Vector3.png');
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
 }
 .section-5 .s5-h2-container{
     width: 500px;
@@ -106,4 +127,10 @@ header button{
 }
 .section-5 picture img {
     width: 600px;
+}
+
+footer .links-nav{
+    color: black;
+    display: flex;
+    gap: 20px;
 }
